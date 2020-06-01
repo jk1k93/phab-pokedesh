@@ -1,0 +1,27 @@
+.screen {
+    background-color: #f2f2f2;
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.itemsList {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.itemCard {
+    width: 24%;
+    display: inline-flex;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    min-width: 300px;
+}
+
+.noDataTextContainer {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+}

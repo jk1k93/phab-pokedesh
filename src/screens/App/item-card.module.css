@@ -1,0 +1,57 @@
+.card {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    border-radius: 0.5rem;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,.19), 0 6px 6px rgba(0,0,0,.23);
+}
+
+.cardIcons {
+    display: inline-flex;
+    flex-direction: column;
+    width: 5%;
+    padding: 0.5rem;
+    align-items: center;
+}
+
+.eyeIcon {
+    color: #696969;
+    margin-bottom: 0.75rem;
+    cursor: pointer;
+}
+
+.trashIcon {
+    color: red;
+    cursor: pointer;
+}
+
+.starIcon {
+    color: grey;
+    margin-top: 0.75rem;
+    cursor: pointer;
+}
+
+.favIcon {
+    color: #FDCC0D;
+    margin-top: 0.75rem;
+    cursor: pointer;
+}
+
+.itemDetail {
+    padding: 0.5rem;
+    flex-direction: column;
+    display: flex;
+    flex: 1;
+    text-align: left;
+}
+
+.itemStats {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    flex: 1;
+    justify-content: space-between;
+}

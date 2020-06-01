@@ -1,0 +1,13 @@
+.btn {
+    border: none;
+    background: #0645AD;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.btn:focus {
+    outline: none;
+}

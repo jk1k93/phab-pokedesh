@@ -1,0 +1,41 @@
+.appHeader {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.searchBar {
+    display: inline-flex;
+    width: 50%;
+}
+
+.searchInputBar {
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px grey;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+.searchInputBar:focus {
+    outline: none;
+}
+
+.addPokemonContainer {
+    display: inline-flex;
+    justify-content: flex-end;
+    flex: 1;
+}
+
+.addPokiBtn {
+    border: none;
+    background: #0645AD;
+    color: white;
+    cursor: pointer;
+    padding: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 0.5rem;
+}
+
+.addPokiBtn:focus {
+    outline: none;
+}

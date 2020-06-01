@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.flex {
+  display: flex;
+}
+
+.bold {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.text {
+  font-family: 'Baloo 2', cursive;
+}
+
+.far {
+  font-family: FontAwesome;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+}
+
+.text-grey {
+  color:#979797;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.app-primary-color {
+  color: #0645AD;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.xl-line-height {
+  line-height: 1.25rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+#multiselectContainerReact {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+}
+
+.error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.w-30 {
+  width: 30%;
+}
+
+.linkBtn {
+  border: none;
+  background: none;
+  padding: 0;
+  color: #0645AD;
+  cursor: pointer;
+}
+
+.linkBtn:focus {
+  outline: none;
+}

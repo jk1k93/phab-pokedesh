@@ -1,0 +1,33 @@
+.inputBox {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.inputBox:focus {
+    outline: none;
+}
+
+.inputContainer {
+    width: 50%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.attrObj {
+    width: 50%;
+    margin-top: 0.25rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.attrInputBox {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 1px solid black;
+}
+
+.attrInputBox:focus {
+    outline: none;
+}
